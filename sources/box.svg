@@ -1,0 +1,18 @@
+<svg id="scene" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fbb03b;
+      }
+    </style>
+  </defs>
+  <title>box</title>
+  <rect class="cls-1" width="2000" height="1500"/>
+  <rect id="big" class="cls-2" x="146" y="665" width="171" height="171"/>
+  <rect id="medium" class="cls-2" x="393" y="713" width="64" height="64"/>
+  <rect id="small" class="cls-2" x="480" y="764" width="13" height="13"/>
+</svg>
