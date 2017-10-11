@@ -1,0 +1,27 @@
+<svg id="circle-four" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1abc9c;
+      }
+    </style>
+  </defs>
+  <title>circle-four</title>
+  <g>
+    <circle class="cls-1" cx="355.6" cy="310.9" r="4.2" transform="translate(-386.3 305.6) rotate(-75.4)"/>
+    <circle class="cls-1" cx="362.9" cy="293.8" r="4.2" transform="translate(-444.4 123.6) rotate(-51.4)"/>
+    <circle class="cls-1" cx="376.4" cy="281.1" r="4.2" transform="translate(-438.7 -65.2) rotate(-27.5)"/>
+    <circle class="cls-1" cx="394" cy="275.1" r="4.2" transform="translate(-367.8 -245.8) rotate(-3.6)"/>
+    <circle class="cls-1" cx="412.5" cy="276.7" r="4.2" transform="translate(-341.8 296.2) rotate(-69.6)"/>
+    <circle class="cls-1" cx="428.8" cy="285.6" r="4.2" transform="translate(-426.5 122.1) rotate(-45.7)"/>
+    <circle class="cls-1" cx="440" cy="300.4" r="4.2" transform="translate(-431.4 -86.4) rotate(-21.8)"/>
+    <circle class="cls-1" cx="444.2" cy="318.5" r="4.2" transform="translate(-242.3 479.4) rotate(-87.8)"/>
+    <circle class="cls-1" cx="440.8" cy="336.7" r="4.2" transform="translate(-407 313.4) rotate(-63.9)"/>
+    <circle class="cls-1" cx="430.3" cy="352" r="4.2" transform="translate(-477 87.5) rotate(-39.9)"/>
+    <circle class="cls-1" cx="414.4" cy="361.7" r="4.2" transform="translate(-435.1 -142.6) rotate(-16)"/>
+    <circle class="cls-1" cx="396" cy="364.1" r="4.2" transform="translate(-370.6 435.2) rotate(-82.1)"/>
+    <circle class="cls-1" cx="378.2" cy="358.9" r="4.2" transform="translate(-477.6 219.7) rotate(-58.1)"/>
+    <circle class="cls-1" cx="364.1" cy="346.9" r="4.2" transform="translate(-483.4 -6.3) rotate(-34.2)"/>
+    <circle class="cls-1" cx="356" cy="330.1" r="4.2" transform="translate(-404.5 -202.2) rotate(-10.3)"/>
+  </g>
+</svg>

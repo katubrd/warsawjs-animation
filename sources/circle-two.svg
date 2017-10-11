@@ -1,0 +1,23 @@
+<svg id="circle-two" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.3 64.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1abc9c;
+      }
+    </style>
+  </defs>
+  <title>circle-two</title>
+  <g>
+    <circle class="cls-1" cx="376.5" cy="305.6" r="4.2" transform="translate(-475.5 53.8) rotate(-43.3)"/>
+    <circle class="cls-1" cx="388.2" cy="294.6" r="4.2" transform="translate(-415.6 -211.8) rotate(-10.5)"/>
+    <circle class="cls-1" cx="403.9" cy="291.7" r="4.2" transform="translate(-387.6 267.3) rotate(-67.7)"/>
+    <circle class="cls-1" cx="418.8" cy="297.8" r="4.2" transform="translate(-463.5 5.8) rotate(-34.9)"/>
+    <circle class="cls-1" cx="428" cy="311" r="4.2" transform="translate(-379.7 -271.4) rotate(-2.1)"/>
+    <circle class="cls-1" cx="428.5" cy="327" r="4.2" transform="translate(-439.7 241.4) rotate(-59.3)"/>
+    <circle class="cls-1" cx="420.4" cy="340.8" r="4.2" transform="translate(-476.4 -63.7) rotate(-26.6)"/>
+    <circle class="cls-1" cx="406" cy="348" r="4.2" transform="translate(-352.5 426.2) rotate(-83.8)"/>
+    <circle class="cls-1" cx="390" cy="346.2" r="4.2" transform="translate(-492.9 143.6) rotate(-51)"/>
+    <circle class="cls-1" cx="377.6" cy="336.1" r="4.2" transform="translate(-454.4 -153) rotate(-18.2)"/>
+    <circle class="cls-1" cx="372.6" cy="320.9" r="4.2" transform="translate(-400.3 312.9) rotate(-75.4)"/>
+  </g>
+</svg>

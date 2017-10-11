@@ -4,32 +4,345 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>wjs animation</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div class="container">
-      <svg id="first-box" data-name="firstBox" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 356">
+    <svg id="firstDot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+      <circle class="first_dot" cx="37" cy="37" r="37" fill="#8bcbde"/>
+    </svg>
+
+    <svg id="circle1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circleColor" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="circle2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circle" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="circle3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circleColor" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="circle4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circle" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="circle5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circleColor" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="circle6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 77">
+      <circle class="circle" cx="38.5" cy="38.5" r="37"/>
+    </svg>
+
+    <svg id="splash" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97.4">
+      <defs>
+        <style>
+          .el1 {
+            fill: #fe6860;
+          }
+        </style>
+      </defs>
+      <circle class="el1" cx="355.6" cy="310.9" r="4.2" transform="translate(-386.3 305.6) rotate(-75.4)"/>
+      <circle class="el1" cx="362.9" cy="293.8" r="4.2" transform="translate(-444.4 123.6) rotate(-51.4)"/>
+      <circle class="el1" cx="376.4" cy="281.1" r="4.2" transform="translate(-438.7 -65.2) rotate(-27.5)"/>
+      <circle class="el1" cx="394" cy="275.1" r="4.2" transform="translate(-367.8 -245.8) rotate(-3.6)"/>
+      <circle class="el1" cx="412.5" cy="276.7" r="4.2" transform="translate(-341.8 296.2) rotate(-69.6)"/>
+      <circle class="el1" cx="428.8" cy="285.6" r="4.2" transform="translate(-426.5 122.1) rotate(-45.7)"/>
+      <circle class="el1" cx="440" cy="300.4" r="4.2" transform="translate(-431.4 -86.4) rotate(-21.8)"/>
+      <circle class="el1" cx="444.2" cy="318.5" r="4.2" transform="translate(-242.3 479.4) rotate(-87.8)"/>
+      <circle class="el1" cx="440.8" cy="336.7" r="4.2" transform="translate(-407 313.4) rotate(-63.9)"/>
+      <circle class="el1" cx="430.3" cy="352" r="4.2" transform="translate(-477 87.5) rotate(-39.9)"/>
+      <circle class="el1" cx="414.4" cy="361.7" r="4.2" transform="translate(-435.1 -142.6) rotate(-16)"/>
+      <circle class="el1" cx="396" cy="364.1" r="4.2" transform="translate(-370.6 435.2) rotate(-82.1)"/>
+      <circle class="el1" cx="378.2" cy="358.9" r="4.2" transform="translate(-477.6 219.7) rotate(-58.1)"/>
+      <circle class="el1" cx="364.1" cy="346.9" r="4.2" transform="translate(-483.4 -6.3) rotate(-34.2)"/>
+      <circle class="el1" cx="356" cy="330.1" r="4.2" transform="translate(-404.5 -202.2) rotate(-10.3)"/>
+    </svg>
+
+    <svg id="splash2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97.4">
+      <defs>
+        <style>
+          .el3 {
+            fill: #0C545C;
+          }
+        </style>
+      </defs>
+      <circle class="el3" cx="355.6" cy="310.9" r="4.2" transform="translate(-386.3 305.6) rotate(-75.4)"/>
+      <circle class="el3" cx="362.9" cy="293.8" r="4.2" transform="translate(-444.4 123.6) rotate(-51.4)"/>
+      <circle class="el3" cx="376.4" cy="281.1" r="4.2" transform="translate(-438.7 -65.2) rotate(-27.5)"/>
+      <circle class="el3" cx="394" cy="275.1" r="4.2" transform="translate(-367.8 -245.8) rotate(-3.6)"/>
+      <circle class="el3" cx="412.5" cy="276.7" r="4.2" transform="translate(-341.8 296.2) rotate(-69.6)"/>
+      <circle class="el3" cx="428.8" cy="285.6" r="4.2" transform="translate(-426.5 122.1) rotate(-45.7)"/>
+      <circle class="el3" cx="440" cy="300.4" r="4.2" transform="translate(-431.4 -86.4) rotate(-21.8)"/>
+      <circle class="el3" cx="444.2" cy="318.5" r="4.2" transform="translate(-242.3 479.4) rotate(-87.8)"/>
+      <circle class="el3" cx="440.8" cy="336.7" r="4.2" transform="translate(-407 313.4) rotate(-63.9)"/>
+      <circle class="el3" cx="430.3" cy="352" r="4.2" transform="translate(-477 87.5) rotate(-39.9)"/>
+      <circle class="el3" cx="414.4" cy="361.7" r="4.2" transform="translate(-435.1 -142.6) rotate(-16)"/>
+      <circle class="el3" cx="396" cy="364.1" r="4.2" transform="translate(-370.6 435.2) rotate(-82.1)"/>
+      <circle class="el3" cx="378.2" cy="358.9" r="4.2" transform="translate(-477.6 219.7) rotate(-58.1)"/>
+      <circle class="el3" cx="364.1" cy="346.9" r="4.2" transform="translate(-483.4 -6.3) rotate(-34.2)"/>
+      <circle class="el3" cx="356" cy="330.1" r="4.2" transform="translate(-404.5 -202.2) rotate(-10.3)"/>
+    </svg>
+
+    <svg id="splash3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97.4">
+      <defs>
+        <style>
+          .el3 {
+            fill: #ECF0F1;
+          }
+        </style>
+      </defs>
+      <circle class="el3" cx="355.6" cy="310.9" r="4.2" transform="translate(-386.3 305.6) rotate(-75.4)"/>
+      <circle class="el3" cx="362.9" cy="293.8" r="4.2" transform="translate(-444.4 123.6) rotate(-51.4)"/>
+      <circle class="el3" cx="376.4" cy="281.1" r="4.2" transform="translate(-438.7 -65.2) rotate(-27.5)"/>
+      <circle class="el3" cx="394" cy="275.1" r="4.2" transform="translate(-367.8 -245.8) rotate(-3.6)"/>
+      <circle class="el3" cx="412.5" cy="276.7" r="4.2" transform="translate(-341.8 296.2) rotate(-69.6)"/>
+      <circle class="el3" cx="428.8" cy="285.6" r="4.2" transform="translate(-426.5 122.1) rotate(-45.7)"/>
+      <circle class="el3" cx="440" cy="300.4" r="4.2" transform="translate(-431.4 -86.4) rotate(-21.8)"/>
+      <circle class="el3" cx="444.2" cy="318.5" r="4.2" transform="translate(-242.3 479.4) rotate(-87.8)"/>
+      <circle class="el3" cx="440.8" cy="336.7" r="4.2" transform="translate(-407 313.4) rotate(-63.9)"/>
+      <circle class="el3" cx="430.3" cy="352" r="4.2" transform="translate(-477 87.5) rotate(-39.9)"/>
+      <circle class="el3" cx="414.4" cy="361.7" r="4.2" transform="translate(-435.1 -142.6) rotate(-16)"/>
+      <circle class="el3" cx="396" cy="364.1" r="4.2" transform="translate(-370.6 435.2) rotate(-82.1)"/>
+      <circle class="el3" cx="378.2" cy="358.9" r="4.2" transform="translate(-477.6 219.7) rotate(-58.1)"/>
+      <circle class="el3" cx="364.1" cy="346.9" r="4.2" transform="translate(-483.4 -6.3) rotate(-34.2)"/>
+      <circle class="el3" cx="356" cy="330.1" r="4.2" transform="translate(-404.5 -202.2) rotate(-10.3)"/>
+    </svg>
+
+    <svg id="splash4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97.4">
+      <defs>
+        <style>
+          .el4 {
+            fill: #ECF0F1;
+          }
+        </style>
+      </defs>
+      <circle class="el4" cx="355.6" cy="310.9" r="4.2" transform="translate(-386.3 305.6) rotate(-75.4)"/>
+      <circle class="el4" cx="362.9" cy="293.8" r="4.2" transform="translate(-444.4 123.6) rotate(-51.4)"/>
+      <circle class="el4" cx="376.4" cy="281.1" r="4.2" transform="translate(-438.7 -65.2) rotate(-27.5)"/>
+      <circle class="el4" cx="394" cy="275.1" r="4.2" transform="translate(-367.8 -245.8) rotate(-3.6)"/>
+      <circle class="el4" cx="412.5" cy="276.7" r="4.2" transform="translate(-341.8 296.2) rotate(-69.6)"/>
+      <circle class="el4" cx="428.8" cy="285.6" r="4.2" transform="translate(-426.5 122.1) rotate(-45.7)"/>
+      <circle class="el4" cx="440" cy="300.4" r="4.2" transform="translate(-431.4 -86.4) rotate(-21.8)"/>
+      <circle class="el4" cx="444.2" cy="318.5" r="4.2" transform="translate(-242.3 479.4) rotate(-87.8)"/>
+      <circle class="el4" cx="440.8" cy="336.7" r="4.2" transform="translate(-407 313.4) rotate(-63.9)"/>
+      <circle class="el4" cx="430.3" cy="352" r="4.2" transform="translate(-477 87.5) rotate(-39.9)"/>
+      <circle class="el4" cx="414.4" cy="361.7" r="4.2" transform="translate(-435.1 -142.6) rotate(-16)"/>
+      <circle class="el4" cx="396" cy="364.1" r="4.2" transform="translate(-370.6 435.2) rotate(-82.1)"/>
+      <circle class="el4" cx="378.2" cy="358.9" r="4.2" transform="translate(-477.6 219.7) rotate(-58.1)"/>
+      <circle class="el4" cx="364.1" cy="346.9" r="4.2" transform="translate(-483.4 -6.3) rotate(-34.2)"/>
+      <circle class="el4" cx="356" cy="330.1" r="4.2" transform="translate(-404.5 -202.2) rotate(-10.3)"/>
+    </svg>
+
+      <svg id="line1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1159.5 240.2">
         <defs>
-          <style>
-            .cls-1 { fill: #fcee21; }
-          </style>
         </defs>
-        <path class="cls-1" d="M0 0h356v356H0z"/>
+        <path class="line1" d="M-119.5,304.5c19-28,80-137,100-114s45,173,53,167,23-117,41-103,60,115,71,75,49-113,58-109,96,145,103,148,64-133,73-139,58.9,172,108,166c43-5.2,42-146,67-160s54,37,66,49,54,67,66,35,14-148,51-98,28,205,62,203,42-142,73-124,141,72,165,35" transform="translate(120.7 -185.8)"/>
       </svg>
 
-      <svg id="second-box" data-name="firstBox" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 356">
+
+      <svg id="line2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1379.6 291">
+        <defs>
+        </defs>
+        <path class="line2" d="M1115.5,301.5l-113-196-141,258-80-29-128-162v110l-40,109-116-39,9-109-21-70-121,135-51,11-30-82-35-18-19,100-39,55-56-55-40-93-33,31-6-110-105,230-86-123-61,58-65-124" transform="translate(262.8 -102.4)"/>
+      </svg>
+
+
+    <svg id="triangle1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.7 247.4">
+        <defs>
+        </defs>
+        <polygon class="triangle1" points="142.9 3 213 124.5 283.1 245.9 142.9 245.9 2.6 245.9 72.7 124.5 142.9 3"/>
+    </svg>
+
+    <svg id="bum1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390.7 324.6">
         <defs>
           <style>
-            .cls-1 { fill: #fcee21; }
+            .bum1 {
+              fill: #f3c9bf;
+            }
           </style>
         </defs>
-        <path class="cls-1" d="M0 0h356v356H0z"/>
-      </svg>
+        <path class="bum1" d="M246.4,283.8a315.8,315.8,0,0,0-34.5-79.3L207,223c-1,.6-3.2-.7-.2.5a14.3,14.3,0,0,1,2.8,1.3c3.7,2,7.2,4.5,10.8,6.8q11.6,7.5,22.9,15.3,22.3,15.3,43.9,31.8c3.7,2.8,9.8,2.2,13.6,0s6-6.8,6.7-11.7c4.4-33.9,9.2-69.1,24.7-100.1l-24.7-3.2,27.6,117c2.2,9.1,16.2,14,22.6,6,22.4-28.7,43.4-58.4,64.3-88.1L397,191.7l6.7,88.8c.5,6.9,5.8,14,13.5,13.5l59.9-3.6-6.8-25.2q-12.2,6-24.2,12.2c-7.2,3.7-16.1,7-22.1,12.5-9,8.1-6,18.2-3,28.2l7.8,25.5,31.7,103.1,19.8-15.2-49-32.7-24.5-16.4c-7.8-5.2-16.7-13.5-26.1-14.7-12.4-1.5-18.7,8.7-24.9,17.6-4.9,7-9.5,14.1-14.8,20.8a133.3,133.3,0,0,1-36.8,32.3l19.8,8.1a354.3,354.3,0,0,1-17.5-61.3c-1-5.5-7.5-10.3-13-9.9-16.1,1-30.9,8.4-45.7,14.2L201.8,408l-92.2,36.7,15.2,19.8A646.4,646.4,0,0,1,199.1,359c5.4-6.3,5.4-16.9-2.7-21.2l-69.6-37.1-3.2,24.7L236.8,305c5.9-1.1,9.7-7.5,9.9-13l.2-4.6c.3-7.3-6.4-13.5-13.5-13.5s-13.2,6.2-13.5,13.5l-.2,4.6,9.9-13L116.3,299.3c-11.5,2.1-13,19.5-3.2,24.7l69.6,37.1L180,339.9a681.4,681.4,0,0,0-78.4,110.9,13.5,13.5,0,0,0,1.1,15c3.1,3.9,9.2,6.8,14.2,4.8l90.4-35.9,44.3-17.6,22.1-8.8c6.4-2.5,13.5-5.5,20-5.9l-13-9.9a354.3,354.3,0,0,0,17.5,61.3c3.1,7.9,11.7,12.9,19.8,8.1a157.5,157.5,0,0,0,37.8-31.2,246,246,0,0,0,16.2-21.2l6.7-9.7c1.2-1.7,2.8-3.4,3.7-5.2s1.5-1.8.9-1.4q-11.7-1.3-7.1,1.2c2.8,2.8,7.2,4.8,10.6,7l11.4,7.6L421,424.4l45.7,30.5c9.8,6.5,23.2-4.3,19.8-15.2l-21.5-70-10.5-34.1-5.5-18-2.6-8.5-1.2-3.8-.8-2.6q-.5-1.4.2-.2l-1.8,6.8-1.4,1.1,2.9-1.6,5.1-2.7,11.2-5.8q11.6-6,23.4-11.8c11.9-5.8,6.3-25.9-6.8-25.2L417.2,267l13.5,13.5L424,191.7c-1-13.7-17.3-17.9-25.2-6.8-19.6,27.9-39.1,55.8-60.1,82.7l22.6,6-27.6-117c-2.6-10.9-19.5-13.6-24.7-3.2C291,188.8,285.6,228,280.5,267l20.3-11.7q-24.6-18.7-50.2-36c-8.4-5.7-16.7-11.4-25.3-16.6s-21.4-9.1-31.9-3c-6.2,3.6-8.6,12.3-4.8,18.5A288.6,288.6,0,0,1,220.3,291a13.5,13.5,0,1,0,26-7.2Z" transform="translate(-99.8 -146.7)"/>
+    </svg>
+
+    <svg id="triangle2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.7 247.4">
+        <defs>
+        </defs>
+        <polygon class="triangle2" points="142.9 3 213 124.5 283.1 245.9 142.9 245.9 2.6 245.9 72.7 124.5 142.9 3"/>
+    </svg>
+
+    <svg id="line_hip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 6">
+      <defs>
+        <style>
+          .line_hip {
+            fill: #0c545c;
+          }
+        </style>
+      </defs>
+      <rect class="line_hip" width="365" height="6"/>
+    </svg>
+
+    <svg id="line_hip2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 6">
+      <defs>
+        <style>
+          .line_hip2 {
+            fill: #8BCBDE;
+          }
+        </style>
+      </defs>
+      <rect class="line_hip2" width="365" height="6"/>
+    </svg>
+
+    <svg id="line_bum" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 437.4 235.2">
+      <defs>
+      </defs>
+      <path class="lineBum" d="M483.5,335.5l8-51-73,60,14-117-75,96-19-85-36,63-24-48-5,28-33-50,21,74s-105-76-170-23-29,127,47,162,115-18,39-44-71-16-71-16c40-11,141-44,195-28" transform="translate(-56.2 -222.3)"/>
+    </svg>
+
+    <svg id="line_top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 6">
+      <defs>
+        <style>
+          .line_top {
+            fill: #0c545c;
+          }
+        </style>
+      </defs>
+      <rect class="line_top" width="365" height="6"/>
+    </svg>
+
+    <svg id="drop1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67">
+      <defs>
+      </defs>
+      <circle class="drop1" cx="33.5" cy="33.5" r="32"/>
+    </svg>
+
+    <svg id="drop2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67">
+      <defs>
+      </defs>
+      <circle class="drop1" cx="33.5" cy="33.5" r="32"/>
+    </svg>
+
+    <svg id="drop3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67">
+      <defs>
+      </defs>
+      <circle class="drop1" cx="33.5" cy="33.5" r="32"/>
+    </svg>
+
+    <svg id="drop4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67">
+      <defs>
+      </defs>
+      <circle class="drop1" cx="33.5" cy="33.5" r="32"/>
+    </svg>
+
+    <svg id="line_box" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.3 189.9">
+      <defs>
+      </defs>
+      <path class="line_box" d="M226.5,247.5l93-61-9,43-37,52,54,9,10-35,67,9-152,91,101,16,22-26" transform="translate(-225.7 -183.3)"/>
+    </svg>
+
+    <svg id="box_black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+      <path d="M431.5,407.5h-280v-280h280Z" transform="translate(-151.5 -127.5)"/>
+    </svg>
+
+    <svg id="box_strokeWhite" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 282 282">
+      <defs>
+      </defs>
+      <path class="box_strokeWhite" d="M431.5,407.5h-280v-280h280Z" transform="translate(-150.5 -126.5)"/>
+    </svg>
+
+    <svg id="box_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+      <path class="box_white" d="M431.5,407.5h-280v-280h280Z" transform="translate(-151.5 -127.5)"/>
+    </svg>
+
+    <svg id="cloudStroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 311.1">
+      <defs>
+      </defs>
+      <path class="cloudStroke" d="M480.5,430.5c-4,0-43.6,43.1-149,41-296-6-268-308,15-308,174,0,189,185,181,209l52,89S515.5,433.5,480.5,430.5Z" transform="translate(-120.1 -162)"/>
+    </svg>
+
+    <svg id="cloud" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 457.9 308.1">
+      <defs>
+      </defs>
+      <path class="cloud" d="M480.5,430.5c-4,0-43.6,43.1-149,41-296-6-268-308,15-308,174,0,189,185,181,209l52,89S515.5,433.5,480.5,430.5Z" transform="translate(-121.6 -163.5)"/>
+    </svg>
+
+    <svg id="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.1 206.6">
+      <defs>
+      </defs>
+      <path class="heart" d="M422.3,336.5c25.8-44.2,92.6-68.5,90.7,1.7C511,413.3,435.5,490,435.5,490S318.9,393.9,325.2,345.8,391.4,286.7,422.3,336.5Z" transform="translate(-320.5 -289.5)"/>
+    </svg>
+
+    <svg id="shape1" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape2" class="theLines2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape3" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape4" class="theLines2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape5" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape6" class="theLines2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape7" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape8" class="theLines2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape9" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape10" class="theLines2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="shape11" class="theLines1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167 96">
+      <path class="shape1" d="M835,162H-332V66H835Z" transform="translate(332 -66)"/>
+    </svg>
+
+    <svg id="plane" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3213 1686">
+      <defs>
+      </defs>
+      <path class="plane" d="M2281,1133H-932V-553H2281Z" transform="translate(932 553)"/>
+    </svg>
+
+    <div class="logoContainer">
+      <img class="logo" src="logo.png" alt="Warsaw JS logo">
+    </div>
+
+
 
 
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
-  <script src="main.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ModifiersPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ColorPropsPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/TextPlugin.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

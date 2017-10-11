@@ -1,0 +1,11 @@
+<svg id="draw-one" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: aqua;
+      }
+    </style>
+  </defs>
+  <title>element</title>
+  <rect class="cls-1" width="30" height="58" rx="3" ry="3"/>
+</svg>
